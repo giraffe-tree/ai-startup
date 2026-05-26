@@ -11,13 +11,13 @@
 ```bash
 mkdir -p ~/.claude/skills/ai-startup
 curl -o ~/.claude/skills/ai-startup/SKILL.md \
-  https://raw.githubusercontent.com/giraffechen/ai-startup/main/SKILL.md
+  https://raw.githubusercontent.com/giraffe-tree/ai-startup/main/SKILL.md
 ```
 
 或者克隆后软链接：
 
 ```bash
-git clone https://github.com/giraffechen/ai-startup.git
+git clone https://github.com/giraffe-tree/ai-startup.git
 mkdir -p ~/.claude/skills
 ln -s $(pwd)/ai-startup ~/.claude/skills/ai-startup
 ```
