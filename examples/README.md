@@ -9,5 +9,5 @@
 | 文件 | 阶段 | 说明 |
 |------|------|------|
 | `state.md` | 全程 | 项目状态快照，每次 session 必读必写 |
-| `创意阶段/problem.md` | 创意阶段 | 可测试的问题假设（含反驳证据） |
-| `MVP阶段/scope.md` | MVP 阶段 | MVP 范围边界定义 |
+| `idea/problem.md` | idea | 可测试的问题假设（含反驳证据） |
+| `mvp/scope.md` | mvp | MVP 范围边界定义 |

@@ -26,7 +26,7 @@ ls startup/state.md 2>/dev/null
 初始化目录结构：
 
 ```bash
-mkdir -p startup/创意阶段 startup/MVP阶段 startup/发布阶段 startup/规模化阶段
+mkdir -p startup/idea startup/mvp startup/launch startup/scale
 ```
 
 ---
@@ -63,7 +63,7 @@ startup/
 # 创业项目状态
 
 **项目名称**: {名称}
-**当前阶段**: 创意阶段 | MVP阶段 | 发布阶段 | 规模化阶段
+**当前阶段**: idea | mvp | launch | scale
 **最近更新**: YYYY-MM-DD
 
 ## 已完成
@@ -90,7 +90,7 @@ startup/
 
 按顺序完成以下任务，每完成一个保存文档并更新 `state.md`：
 
-#### 1. 打磨问题假设 → `startup/创意阶段/problem.md`
+#### 1. 打磨问题假设 → `startup/idea/problem.md`
 
 引导用户将模糊观察转化为可测试假设：
 - 谁（具体职位/角色）有这个问题？
@@ -119,14 +119,14 @@ startup/
 {...}
 ```
 
-#### 2. 市场研究 → `startup/创意阶段/market.md`
+#### 2. 市场研究 → `startup/idea/market.md`
 
 - 竞争格局分层（直接/间接/相邻）
 - 竞争对手客户的反复投诉（免费定性研究）
 - TAM/SAM/SOM 估算 + 假设压力测试
 - 3个外部趋势评估（监管/技术/人口结构，顺风/逆风）
 
-#### 3. 客户探索 → `startup/创意阶段/interviews.md`
+#### 3. 客户探索 → `startup/idea/interviews.md`
 
 引导用户规划并记录客户访谈：
 - 目标画像（职位/公司类型/资历）
@@ -150,7 +150,7 @@ startup/
 **最大挑战**: ...
 ```
 
-#### 4. 解决方案概念 → `startup/创意阶段/solution.md`
+#### 4. 解决方案概念 → `startup/idea/solution.md`
 
 - 解决方案概念（基于验证而非最初假设）
 - 核心交互设计
@@ -172,7 +172,7 @@ startup/
 
 **目标**：将验证过的问题转化为真实用户会使用的可运行产品，同时建立可维护的架构基础。
 
-#### 1. 架构上下文文档 → `startup/MVP阶段/CLAUDE.md`
+#### 1. 架构上下文文档 → `startup/mvp/CLAUDE.md`
 
 在写第一行代码前，用 Claude 定义并记录架构决策：
 - 技术栈选择与原因
@@ -182,7 +182,7 @@ startup/
 
 **重要**：提醒用户将此文件复制到代码仓库根目录——每个 Claude Code 会话都依赖它保持架构一致性。
 
-#### 2. MVP 范围文档 → `startup/MVP阶段/scope.md`
+#### 2. MVP 范围文档 → `startup/mvp/scope.md`
 
 ```markdown
 # MVP 范围
@@ -200,7 +200,7 @@ startup/
 {单一最重要的用户流程}
 ```
 
-#### 3. 度量框架 → `startup/MVP阶段/metrics.md`
+#### 3. 度量框架 → `startup/mvp/metrics.md`
 
 在第一个用户出现前定义：
 - 留存基准（第7天/第30天目标）
@@ -208,7 +208,7 @@ startup/
 - PMF 指标（Sean Ellis 测试基准：>40% "非常失望"）
 - 假阳性定义（没有激活的注册、没有留存的收入）
 
-#### 4. 构建会话日志 → `startup/MVP阶段/session-log.md`（追加）
+#### 4. 构建会话日志 → `startup/mvp/session-log.md`（追加）
 
 每次 Claude Code 构建会话结束后追加：
 ```markdown
@@ -244,7 +244,7 @@ startup/
 
 **目标**：将早期牵引力转化为可重复、可持续的增长引擎，构建解放创始人注意力的运营系统。
 
-#### 1. 技术债审计 → `startup/发布阶段/tech-debt.md`
+#### 1. 技术债审计 → `startup/launch/tech-debt.md`
 
 用 Claude Code 审计 MVP 代码库：
 - 结构性弱点
@@ -258,14 +258,14 @@ startup/
 
 同步将 MVP 阶段的脑海中的架构决策补录到 `CLAUDE.md`。
 
-#### 2. 运营审计 → `startup/发布阶段/operations.md`
+#### 2. 运营审计 → `startup/launch/operations.md`
 
 审计创始人当前所有运营负荷，分类：
 - **可完全自动化**：设计工作流逻辑（触发条件/决策规则/输出/去向）
 - **需要人但不必是创始人**：可委托的任务
 - **真正需要创始人判断**：保留这些
 
-#### 3. 安全合规清单 → `startup/发布阶段/compliance.md`
+#### 3. 安全合规清单 → `startup/launch/compliance.md`
 
 针对目标市场所需框架（SOC 2 / GDPR / HIPAA）：
 - 代码层面漏洞和合规差距
@@ -284,13 +284,13 @@ startup/
 
 **目标**：在保持产品-市场契合的基础上，构建可持续扩张的组织与增长系统。
 
-#### 1. 增长渠道 → `startup/规模化阶段/channels.md`
+#### 1. 增长渠道 → `startup/scale/channels.md`
 
 - 各渠道单元经济学（CAC/LTV/回本期）
 - 渠道优先级排序
 - 防止过早扩张：新市场验证标准
 
-#### 2. 规模化路线图 → `startup/规模化阶段/scale-plan.md`
+#### 2. 规模化路线图 → `startup/scale/scale-plan.md`
 
 - 团队扩张节奏（什么阶段招什么人）
 - 融资时机判断
