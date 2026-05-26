@@ -51,21 +51,21 @@ ln -s $(pwd)/ai-startup ~/.claude/skills/ai-startup
 ```
 startup/
 ├── state.md              ← 每次 session 必读/必写
-├── 创意阶段/
+├── idea/
 │   ├── problem.md
 │   ├── market.md
 │   ├── interviews.md
 │   └── solution.md
-├── MVP阶段/
+├── mvp/
 │   ├── CLAUDE.md
 │   ├── scope.md
 │   ├── metrics.md
 │   └── session-log.md
-├── 发布阶段/
+├── launch/
 │   ├── tech-debt.md
 │   ├── operations.md
 │   └── compliance.md
-└── 规模化阶段/
+└── scale/
     ├── channels.md
     └── scale-plan.md
 ```
