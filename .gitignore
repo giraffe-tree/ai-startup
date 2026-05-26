@@ -1,0 +1,4 @@
+# 用户项目数据，不纳入 skill 仓库
+startup/
+
+.DS_Store
