@@ -36,21 +36,21 @@ mkdir -p startup/idea startup/mvp startup/launch startup/scale
 ```
 startup/
 ├── state.md              ← 每次 session 必读/必写，记录当前阶段和关键决策
-├── 创意阶段/
+├── idea/
 │   ├── problem.md        ← 可测试的问题假设
 │   ├── market.md         ← 竞争格局 + TAM/SAM/SOM
 │   ├── interviews.md     ← 客户访谈记录与主题综合
 │   └── solution.md       ← 解决方案概念 + 原型描述
-├── MVP阶段/
+├── mvp/
 │   ├── CLAUDE.md         ← 架构上下文（放入代码仓库根目录）
 │   ├── scope.md          ← MVP 范围（做/不做/修改标准）
 │   ├── metrics.md        ← PMF 度量框架
 │   └── session-log.md    ← 构建会话日志（追加）
-├── 发布阶段/
+├── launch/
 │   ├── tech-debt.md      ← 技术债审计 + 修复排期
 │   ├── operations.md     ← 运营审计 + 自动化设计
 │   └── compliance.md     ← 安全合规清单
-└── 规模化阶段/
+└── scale/
     ├── channels.md       ← 增长渠道 + 单元经济学
     └── scale-plan.md     ← 规模化路线图
 ```

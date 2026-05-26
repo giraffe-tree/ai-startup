@@ -39,10 +39,10 @@ ln -s $(pwd)/ai-startup ~/.claude/skills/ai-startup
 
 | 阶段 | 目标 | 关键产出 |
 |------|------|---------|
-| **创意阶段** | 验证真实问题存在，再写第一行代码 | `problem.md` / `market.md` / `interviews.md` / `solution.md` |
-| **MVP 阶段** | 构建真实用户会使用的可运行产品 | `CLAUDE.md` / `scope.md` / `metrics.md` |
-| **发布阶段** | 将早期牵引力转化为可重复增长 | `tech-debt.md` / `operations.md` / `compliance.md` |
-| **规模化阶段** | 构建可持续扩张的组织与增长系统 | `channels.md` / `scale-plan.md` |
+| **idea** | 验证真实问题存在，再写第一行代码 | `problem.md` / `market.md` / `interviews.md` / `solution.md` |
+| **mvp** | 构建真实用户会使用的可运行产品 | `CLAUDE.md` / `scope.md` / `metrics.md` |
+| **launch** | 将早期牵引力转化为可重复增长 | `tech-debt.md` / `operations.md` / `compliance.md` |
+| **scale** | 构建可持续扩张的组织与增长系统 | `channels.md` / `scale-plan.md` |
 
 ---
 
